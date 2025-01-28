@@ -222,10 +222,21 @@
 // }
 // console.log(obj);
 
-let temp = [4, 6, 8, 5, 2, 10, 12];
+// let temp = [4, 6, 8, 5, 2, 10, 12];
 
-temp[3] += 2;
+// temp[3] += 2;
 
-for (let i = 0; i < temp.length; i++) {
-  console.log(temp[i] + "°C");
+// for (let i = 0; i < temp.length; i++) {
+//   console.log(temp[i] + "°C");
+// }
+
+let toDoList = ["W~ake-up", "Breakfast", "Coding", "Gym", "Listening to music"];
+
+toDoList.unshift("MasaiClass");
+
+toDoList.pop();
+
+console.log("Updated To-Do List:");
+for (let i = 0; i < toDoList.length; i++) {
+  console.log(toDoList[i]);
 }
